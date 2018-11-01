@@ -1,6 +1,6 @@
 # UnderCover - Low-cost warrentless surveillance targeting members of organizations using office Wi-Fi names
 
-We use the names Wi-Fi networks used by organizations we wish to track stored in smartphones to expose when members are near, unmask and log their MAC address, and later upload this to a master database.
+We use the names of Wi-Fi networks in the offices and headquarters of organizations we wish to track to unmask devices that have connected to them before. After creating fake versions of networks which are likely stored in the "trusted" list of smartphones belonging to employees, we listen for devices automatically trying to connect, log their real MAC address, and later upload this to a master database.
 
 ## Offline attack -
 A NodeMCU with microSD card and reader is used to unmask members of organizations via the preferred network lists (PNL) stored in their smartphones. Individual devices detected as having connected to the Wi-Fi beloning to an organization are stored by MAC address, and the location of contact is logged via recording the signal strength of nearby Wi-Fi networks and their ESSID/BSSID's. This is later sent to a location-providing API, and uploaded to a database showing the time, location, and mapped location of all observations of devices containing a network in it's PNL belonging to that organization, or individual devices. 
