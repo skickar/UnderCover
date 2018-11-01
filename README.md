@@ -10,7 +10,7 @@ A NodeMCU with microSD card and reader is used to unmask members of organization
 ### GeoIP log - A log of Wi-Fi networks and signal strenghts associated with an entry in the results list for later geolocation
 
 ## Flow:
-### Attacker selects target organization from list of organizations in the targat list. 
+### Attacker selects target organization from list of organizations in the target list. 
 ### The NodeMCU creates fake versions of that networks and logs any device that tries to connect, and takes a log of nearby Wi-Fi networks
 ### The log is extracted and the accompanying signal strength data is converted to geoIP information
 ### The result is uploaded to a database which maps all recorded observations of these member devices
