@@ -1,4 +1,4 @@
-### UnderCover - Low-cost Warrentless Surveillance targeting members of organizations using organizational Wi-Fi names
+### UnderCover - Low-cost Warrentless Surveillance targeting members of organizations using office Wi-Fi names
 
 ## Offline attack -
 A NodeMCU with microSD card and reader is used to unmask members of organizations via the preferred network lists (PNL) stored in their smartphones. Individual devices detected as having connected to the Wi-Fi beloning to an organization are stored by MAC address, and the location of contact is logged via recording the signal strength of nearby Wi-Fi networks and their ESSID/BSSID's. This is later sent to a location-providing API, and uploaded to a database showing the time, location, and mapped location of all observations of devices containing a network in it's PNL belonging to that organization, or individual devices. 
